@@ -5,26 +5,42 @@ Project Overview
 
 This project implements a Convolutional Neural Network (CNN) to classify natural scene images from the Intel Image Classification Dataset into six different categories. The model is trained using TensorFlow/Keras and evaluated on unseen test images to measure its performance.
 
+
 Dataset
+
 
 The Intel Image Classification dataset contains images belonging to the following six classes:
 
+
 🏢 Buildings
+
 🌲 Forest
+
 ❄️ Glacier
+
 ⛰️ Mountain
+
 🌊 Sea
+
 🛣️ Street
+
 
 The images are resized before training and normalized for better model performance.
 
+
 Project Objectives
-Build a CNN model for image classification.
+
+Build a CNN model for image classification
+.
 Train the model on the Intel Image Classification dataset.
+
 Evaluate model performance using accuracy and loss.
 Predict unseen images.
+
 Visualize sample predictions with actual and predicted labels.
+
 Technologies Used
+
 Python
 TensorFlow / Keras
 NumPy
@@ -34,18 +50,30 @@ Scikit-learn
 Google Colab / Jupyter Notebook
 CNN Architecture
 
+
 The model consists of:
 
+
 Convolutional Layers (Conv2D)
+
 Max Pooling Layers
+
 Flatten Layer
+
 Dense (Fully Connected) Layers
+
 Dropout Layer
+
 Softmax Output Layer
+
 Data Preprocessing
+
 Image resizing
+
 Image normalization (rescale = 1/255)
+
 Data augmentation:
+
 Rotation
 Zoom
 Width Shift
