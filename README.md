@@ -75,22 +75,36 @@ Image normalization (rescale = 1/255)
 Data augmentation:
 
 Rotation
+
 Zoom
+
 Width Shift
+
 Height Shift
+
 Horizontal Flip
+
 Model Training
+
 
 The model is trained using:
 
+
 Optimizer: Adam
+
 Loss Function: Categorical Crossentropy
+
 Evaluation Metric: Accuracy
+
 Epochs: (Specify your value, e.g., 20 or 25)
+
 Batch Size: (Specify your value, e.g., 32)
+
 Results
 
+
 The trained CNN successfully classifies images into six scene categories.
+
 
 Example prediction results:
 
@@ -101,6 +115,6 @@ Glacier	Glacier ✅
 Buildings	Buildings ✅
 Sea	Mountain ❌
 Sea	Street ❌
-Buildings	Glacier ❌
+
 
 The model correctly classified most test images while making a few misclassifications due to visual similarities between classes.
