@@ -1,5 +1,7 @@
 Intel Image Classification using Convolutional Neural Network (CNN)
+
 Project Overview
+
 
 This project implements a Convolutional Neural Network (CNN) to classify natural scene images from the Intel Image Classification Dataset into six different categories. The model is trained using TensorFlow/Keras and evaluated on unseen test images to measure its performance.
 
